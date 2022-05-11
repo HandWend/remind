@@ -16,7 +16,7 @@ import service.ListServiceImpl;
 /**
  * Servlet implementation class WriterController
  */
-@WebServlet("/List")
+@WebServlet("/list")
 public class ListController extends HttpServlet { 
 	private static final long serialVersionUID = 1L;
        
@@ -47,6 +47,7 @@ public class ListController extends HttpServlet {
 		//뽑아낸 값들을 list에 setAttribute()로 넣어준다.
 		request.setAttribute("list", list);
 		
+		//.jsp
 		RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
 		dispatcher.forward(request, response);
 	}

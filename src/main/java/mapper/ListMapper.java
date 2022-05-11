@@ -76,10 +76,8 @@ public class ListMapper {
 				// e.printStackTrace();
 				e.getLocalizedMessage();
 			}
-
 		}
-
-		return null;
+		return list;
 	}
 
 }

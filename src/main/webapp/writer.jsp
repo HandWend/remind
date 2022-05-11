@@ -16,7 +16,9 @@
 </head>
 <body>
 <div class="container">
-	<form method="post" action="writerAct.jsp">
+<!-- ★★★★★★★ -->
+<!-- action 넘어가는 것을 controller로 받아. -->
+	<form method="post" action="writer">
 		<table class="table">
 			<tr>
 				<th>제목</th>

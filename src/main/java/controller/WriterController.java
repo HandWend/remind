@@ -63,7 +63,7 @@ public class WriterController extends HttpServlet {
 		service.insert(vo);
 		
 		//받아서 어쩔 건데 - 넘겨야지 - 어디로?
-		response.sendRedirect("List");
+		response.sendRedirect("list");
 	}
 
 }
